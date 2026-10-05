@@ -22,7 +22,7 @@ Tab:AddSlider({
     Min = 1,          -- Nhỏ nhất là 10
     Max = 50,         -- Lớn nhất là 200
     Default = 1,      -- Lúc mới mở thì để 50
-    Color = Color3.fromRGB(0, 0, 0), -- Màu xanh lá
+    Color = Color3.fromRGB(225, 225, 225), -- Màu xanh lá
     Increment = 1,     -- Mỗi lần kéo nhảy 5 đơn vị
     ValueName = "Studs",
     Callback = function(Value)
@@ -42,8 +42,8 @@ Tab:AddSlider({
                 box = Instance.new("SelectionBox")
                 box.Name = "HitboxOutline"
                 box.Adornee = hitbox
-                box.Color3 = Color3.fromRGB(225, 225, 225)
-                box.LineThickness = 0.5 -- Độ dày mỏng như bạn muốn
+                box.Color3 = Color3.fromRGB(255, 192, 203)
+                box.LineThickness = 0.0.1 -- Độ dày mỏng như bạn muốn
                 box.Transparency = 0
                 box.Parent = hitbox
             end
