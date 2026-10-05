@@ -43,7 +43,7 @@ Tab:AddSlider({
                 box.Name = "HitboxOutline"
                 box.Adornee = hitbox
                 box.Color3 = Color3.fromRGB(255, 192, 203)
-                box.LineThickness = 0.0.1 -- Độ dày mỏng như bạn muốn
+                box.LineThickness = 0.01 -- Độ dày mỏng như bạn muốn
                 box.Transparency = 0
                 box.Parent = hitbox
             end
